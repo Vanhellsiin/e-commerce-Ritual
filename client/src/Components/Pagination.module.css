@@ -1,0 +1,15 @@
+.sectionFlex {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: .6em;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 3em;
+    width: 1.4em;
+    height: 2.18em;
+    margin: 0 .1em;     
+}

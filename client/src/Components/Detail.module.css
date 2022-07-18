@@ -1,0 +1,112 @@
+.back{
+    background-image: url('../images/fondoDetail.jpg');
+
+}
+.manzana{
+    background-color: #c9e1cbbd;
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /* padding: 10px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+
+    margin-right: auto;
+    margin-left:  auto;
+
+    max-width: 960px;
+
+    padding: 20px 40px;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.divInfo{
+    padding: 20px 80px;
+}
+.titles{
+    font-family: 'Red Hat Display', sans-serif;
+
+    /* position: relative; */
+    /* justify-content:center; */
+}
+.img{
+    padding: 100px;
+}
+.imgdetail{
+    width: 20vw;
+    border-radius: 40px;
+    align-content: center;
+    }
+.btn{
+
+    border-radius: 1rem;
+    border: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    width:15vw;
+    padding:  1em 1em;
+    background-color:rgba(39, 66, 47, 0.637) ;    
+    color:white;
+    margin-top: 38px;
+
+
+
+}
+.label{
+    /* position: relative; */
+
+    font-family: 'Red Hat Display', sans-serif;
+
+    margin: 10px;
+}
+
+.btnAddToCart{
+    display: grid;
+    grid-template-columns: 50px 50px 50px ;
+    grid-auto-rows: auto;
+    margin-bottom: 15px;
+    height: 30px;
+    justify-items: center;
+}
+.btnAddToCart h4{
+    font-family: 'Red Hat Display', sans-serif;
+
+    font-size: 30px;
+}
+.rev{
+    padding:0px;
+}
+.btn2{
+    border: 0px solid rgba(39, 66, 47, 0.637);
+    font-size: 30px;
+    margin-bottom: 35px;
+    
+    transition: 0.2s all ease-in-out;
+    z-index: 1;
+}
+
+.ratinginline{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 400px) {
+    .manzana {
+        flex-direction: column;
+        height: auto;
+    }
+    .titles {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .label {
+        font-size: 12px
+    }
+    .btn {
+        padding: 5px 15px;
+    }
+}
